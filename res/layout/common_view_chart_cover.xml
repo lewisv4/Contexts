@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.mipha.hyrule.image.BaseDraweeView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:overlayImage="@drawable/common_mask" app:placeholderImage="@drawable/bg_playlist_avatar" app:placeholderImageScaleType="centerCrop" app:roundedCornerRadius="3.0dip" />
+    <com.ushowmedia.mipha.hyrule.image.BaseDraweeView android:id="@id/iv_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" app:actualImageScaleType="fitXY" app:layout_constraintBottom_toBottomOf="@id/iv_cover" app:layout_constraintEnd_toEndOf="@id/iv_cover" app:layout_constraintStart_toStartOf="@id/iv_cover" app:layout_constraintTop_toTopOf="@id/iv_cover" />
+    <TextView android:textSize="@dimen/common_text_level_2" android:textStyle="bold" android:textColor="@color/common_color_white_primary" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:maxWidth="80.0dip" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

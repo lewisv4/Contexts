@@ -1,0 +1,217 @@
+.class public final Lcom/ushowmedia/mipha/setting/checkin/e$b;
+.super Lcom/ushowmedia/mipha/hyrule/network/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/ushowmedia/mipha/setting/checkin/e;->b()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/ushowmedia/mipha/hyrule/network/a<",
+        "Lcom/ushowmedia/mipha/setting/checkin/d;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+
+# direct methods
+.method constructor <init>(Lcom/ushowmedia/mipha/setting/checkin/e;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/ushowmedia/mipha/setting/checkin/e$b;->a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+    invoke-direct {p0}, Lcom/ushowmedia/mipha/hyrule/network/a;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 2
+
+    iget-object v0, p0, Lcom/ushowmedia/mipha/setting/checkin/e$b;->a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+    invoke-virtual {v0}, Lcom/ushowmedia/mipha/setting/checkin/e;->i()Lcom/ushowmedia/mipha/hyrule/a/a/b/d;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ushowmedia/mipha/setting/checkin/b$a;
+
+    if-eqz v0, :cond_0
+
+    const/4 v1, 0x0
+
+    invoke-interface {v0, v1}, Lcom/ushowmedia/mipha/setting/checkin/b$a;->a(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final a(ILjava/lang/String;)V
+    .locals 0
+
+    iget-object p1, p0, Lcom/ushowmedia/mipha/setting/checkin/e$b;->a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+    invoke-virtual {p1}, Lcom/ushowmedia/mipha/setting/checkin/e;->i()Lcom/ushowmedia/mipha/hyrule/a/a/b/d;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/ushowmedia/mipha/setting/checkin/b$a;
+
+    if-eqz p1, :cond_1
+
+    if-nez p2, :cond_0
+
+    sget-object p2, Lcom/ushowmedia/mipha/hyrule/j/p;->a:Lcom/ushowmedia/mipha/hyrule/j/p$a;
+
+    const p2, 0x7f0d00c2
+
+    invoke-static {p2}, Lcom/ushowmedia/mipha/hyrule/j/p$a;->a(I)Ljava/lang/String;
+
+    move-result-object p2
+
+    :cond_0
+    invoke-interface {p1, p2}, Lcom/ushowmedia/mipha/setting/checkin/b$a;->b(Ljava/lang/String;)V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final synthetic a(Ljava/lang/Object;)V
+    .locals 2
+
+    check-cast p1, Lcom/ushowmedia/mipha/setting/checkin/d;
+
+    const-string v0, "result"
+
+    invoke-static {p1, v0}, Lc/d/b/h;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object v0, Lcom/ushowmedia/mipha/setting/checkin/g;->a:Lcom/ushowmedia/mipha/setting/checkin/g$a;
+
+    invoke-static {p1}, Lcom/ushowmedia/mipha/setting/checkin/g$a;->a(Lcom/ushowmedia/mipha/setting/checkin/d;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    iget-object v0, p0, Lcom/ushowmedia/mipha/setting/checkin/e$b;->a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+    invoke-virtual {v0}, Lcom/ushowmedia/mipha/setting/checkin/e;->i()Lcom/ushowmedia/mipha/hyrule/a/a/b/d;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ushowmedia/mipha/setting/checkin/b$a;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0, p1}, Lcom/ushowmedia/mipha/setting/checkin/b$a;->a(Lcom/ushowmedia/mipha/setting/checkin/d;)V
+
+    :cond_0
+    iget-object v0, p0, Lcom/ushowmedia/mipha/setting/checkin/e$b;->a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+    invoke-virtual {v0}, Lcom/ushowmedia/mipha/setting/checkin/e;->i()Lcom/ushowmedia/mipha/hyrule/a/a/b/d;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ushowmedia/mipha/setting/checkin/b$a;
+
+    if-eqz v0, :cond_1
+
+    iget v1, p1, Lcom/ushowmedia/mipha/setting/checkin/d;->d:I
+
+    invoke-interface {v0, v1}, Lcom/ushowmedia/mipha/setting/checkin/b$a;->c(I)V
+
+    :cond_1
+    sget-object v0, Lcom/ushowmedia/mipha/setting/checkin/g;->a:Lcom/ushowmedia/mipha/setting/checkin/g$a;
+
+    iget v0, p1, Lcom/ushowmedia/mipha/setting/checkin/d;->d:I
+
+    invoke-static {v0}, Lcom/ushowmedia/mipha/setting/checkin/g$a;->a(I)V
+
+    iget-boolean p1, p1, Lcom/ushowmedia/mipha/setting/checkin/d;->c:Z
+
+    if-eqz p1, :cond_2
+
+    sget-object p1, Lcom/ushowmedia/mipha/user/j;->t:Lcom/ushowmedia/mipha/user/j;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Lcom/ushowmedia/mipha/user/j;->a(J)V
+
+    :cond_2
+    return-void
+
+    :cond_3
+    iget-object p1, p0, Lcom/ushowmedia/mipha/setting/checkin/e$b;->a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+    invoke-virtual {p1}, Lcom/ushowmedia/mipha/setting/checkin/e;->i()Lcom/ushowmedia/mipha/hyrule/a/a/b/d;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/ushowmedia/mipha/setting/checkin/b$a;
+
+    if-eqz p1, :cond_4
+
+    sget-object v0, Lcom/ushowmedia/mipha/hyrule/j/p;->a:Lcom/ushowmedia/mipha/hyrule/j/p$a;
+
+    const v0, 0x7f0d00dc
+
+    invoke-static {v0}, Lcom/ushowmedia/mipha/hyrule/j/p$a;->a(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Lcom/ushowmedia/mipha/setting/checkin/b$a;->b(Ljava/lang/String;)V
+
+    :cond_4
+    return-void
+.end method
+
+.method public final a(Ljava/lang/Throwable;)V
+    .locals 1
+
+    const-string v0, "e"
+
+    invoke-static {p1, v0}, Lc/d/b/h;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p1, p0, Lcom/ushowmedia/mipha/setting/checkin/e$b;->a:Lcom/ushowmedia/mipha/setting/checkin/e;
+
+    invoke-virtual {p1}, Lcom/ushowmedia/mipha/setting/checkin/e;->i()Lcom/ushowmedia/mipha/hyrule/a/a/b/d;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/ushowmedia/mipha/setting/checkin/b$a;
+
+    if-eqz p1, :cond_0
+
+    sget-object v0, Lcom/ushowmedia/mipha/hyrule/j/p;->a:Lcom/ushowmedia/mipha/hyrule/j/p$a;
+
+    const v0, 0x7f0d00c1
+
+    invoke-static {v0}, Lcom/ushowmedia/mipha/hyrule/j/p$a;->a(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Lcom/ushowmedia/mipha/setting/checkin/b$a;->b(Ljava/lang/String;)V
+
+    :cond_0
+    return-void
+.end method

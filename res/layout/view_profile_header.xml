@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.korok.view.AvatarView android:id="@id/iv_avatar" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AvatarView.Large" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/iv_avatar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/common_text_title_primary" android:textStyle="bold" android:textColor="@color/common_text_color_primary" android:ellipsize="end" android:id="@id/tv_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/common_text_hint_secondary" android:textColor="@color/common_text_color_tip" android:id="@id/tv_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

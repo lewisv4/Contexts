@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.korok.view.WaterFallCardView android:id="@id/waterfall" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/common_background_activity">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/text_profile" style="@style/CommonToolbarStyle">
+            <TextView android:textSize="@dimen/common_text_content_primary" android:textColor="@color/common_base_color" android:layout_gravity="end" android:id="@id/tv_edit" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_text_edit" android:textAllCaps="true" android:layout_marginEnd="18.0dip" />
+        </android.support.v7.widget.Toolbar>
+    </com.ushowmedia.korok.view.WaterFallCardView>
+    <android.support.v7.widget.RecyclerView android:id="@id/rv_profile" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/waterfall" />
+</android.support.constraint.ConstraintLayout>

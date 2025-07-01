@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_rescan" android:title="@string/menu_rescan_local_music" />
+    <item android:id="@id/menu_get_info" android:title="@string/menu_local_music_get_info" />
+    <item android:id="@id/menu_change_order" android:title="@string/change_order" />
+    <item android:id="@id/search" android:title="@string/scan_local_files" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="always" />
+</menu>

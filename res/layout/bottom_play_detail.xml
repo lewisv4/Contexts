@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_background_activity" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintBottom_toTopOf="@id/view_divider">
+        <ImageView android:id="@id/iv_mode" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/icon_playlist_loop" />
+        <ImageView android:id="@id/iv_delete" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/icon_item_delete" />
+        <TextView android:textSize="@dimen/common_text_title_tertiary" android:textColor="@color/common_text_color_primary" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_mode" app:layout_constraintEnd_toStartOf="@id/iv_delete" app:layout_constraintStart_toEndOf="@id/iv_mode" app:layout_constraintTop_toTopOf="@id/iv_mode" />
+    </android.support.constraint.ConstraintLayout>
+    <View android:id="@id/view_divider_top" android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/rv_playlist" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

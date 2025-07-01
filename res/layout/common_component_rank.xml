@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="18.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.mipha.hyrule.image.BaseDraweeView android:id="@id/iv_cover" android:layout_width="102.0dip" android:layout_height="102.0dip" app:placeholderImage="@drawable/bg_playlist_avatar" app:placeholderImageScaleType="centerCrop" app:roundedCornerRadius="3.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_cover" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/common_text_level_2" android:textColor="@color/common_color_gray" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:singleLine="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_songs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

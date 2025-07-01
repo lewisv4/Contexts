@@ -1,0 +1,370 @@
+.class final Lcom/airbnb/lottie/c/b/d$a;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/airbnb/lottie/c/b/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method static a(Landroid/util/JsonReader;Lcom/airbnb/lottie/e;)Lcom/airbnb/lottie/c/b/d;
+    .locals 14
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    move v4, v0
+
+    move-object v3, v1
+
+    move-object v5, v3
+
+    move-object v6, v5
+
+    move-object v7, v6
+
+    move-object v8, v7
+
+    move-object v9, v8
+
+    :goto_0
+    invoke-virtual {p0}, Landroid/util/JsonReader;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_b
+
+    invoke-virtual {p0}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+
+    move-result v2
+
+    const/16 v10, 0x65
+
+    const/4 v11, -0x1
+
+    const/4 v12, 0x1
+
+    if-eq v2, v10, :cond_3
+
+    const/16 v10, 0x67
+
+    if-eq v2, v10, :cond_2
+
+    const/16 v10, 0x6f
+
+    if-eq v2, v10, :cond_1
+
+    const/16 v10, 0xdbf
+
+    if-eq v2, v10, :cond_0
+
+    packed-switch v2, :pswitch_data_0
+
+    goto :goto_1
+
+    :pswitch_0
+    const-string v2, "t"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    const/4 v1, 0x3
+
+    goto :goto_2
+
+    :pswitch_1
+    const-string v2, "s"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    const/4 v1, 0x4
+
+    goto :goto_2
+
+    :pswitch_2
+    const-string v2, "r"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    const/4 v1, 0x6
+
+    goto :goto_2
+
+    :cond_0
+    const-string v2, "nm"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    move v1, v0
+
+    goto :goto_2
+
+    :cond_1
+    const-string v2, "o"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    const/4 v1, 0x2
+
+    goto :goto_2
+
+    :cond_2
+    const-string v2, "g"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    move v1, v12
+
+    goto :goto_2
+
+    :cond_3
+    const-string v2, "e"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    const/4 v1, 0x5
+
+    goto :goto_2
+
+    :cond_4
+    :goto_1
+    move v1, v11
+
+    :goto_2
+    packed-switch v1, :pswitch_data_1
+
+    invoke-virtual {p0}, Landroid/util/JsonReader;->skipValue()V
+
+    goto :goto_0
+
+    :pswitch_3
+    invoke-virtual {p0}, Landroid/util/JsonReader;->nextInt()I
+
+    move-result v1
+
+    if-ne v1, v12, :cond_5
+
+    sget-object v1, Landroid/graphics/Path$FillType;->WINDING:Landroid/graphics/Path$FillType;
+
+    :goto_3
+    move-object v5, v1
+
+    goto :goto_0
+
+    :cond_5
+    sget-object v1, Landroid/graphics/Path$FillType;->EVEN_ODD:Landroid/graphics/Path$FillType;
+
+    goto :goto_3
+
+    :pswitch_4
+    invoke-static {p0, p1}, Lcom/airbnb/lottie/c/a/f$a;->a(Landroid/util/JsonReader;Lcom/airbnb/lottie/e;)Lcom/airbnb/lottie/c/a/f;
+
+    move-result-object v9
+
+    goto/16 :goto_0
+
+    :pswitch_5
+    invoke-static {p0, p1}, Lcom/airbnb/lottie/c/a/f$a;->a(Landroid/util/JsonReader;Lcom/airbnb/lottie/e;)Lcom/airbnb/lottie/c/a/f;
+
+    move-result-object v8
+
+    goto/16 :goto_0
+
+    :pswitch_6
+    invoke-virtual {p0}, Landroid/util/JsonReader;->nextInt()I
+
+    move-result v1
+
+    if-ne v1, v12, :cond_6
+
+    sget v1, Lcom/airbnb/lottie/c/b/f;->a:I
+
+    :goto_4
+    move v4, v1
+
+    goto/16 :goto_0
+
+    :cond_6
+    sget v1, Lcom/airbnb/lottie/c/b/f;->b:I
+
+    goto :goto_4
+
+    :pswitch_7
+    invoke-static {p0, p1}, Lcom/airbnb/lottie/c/a/d$a;->a(Landroid/util/JsonReader;Lcom/airbnb/lottie/e;)Lcom/airbnb/lottie/c/a/d;
+
+    move-result-object v7
+
+    goto/16 :goto_0
+
+    :pswitch_8
+    invoke-virtual {p0}, Landroid/util/JsonReader;->beginObject()V
+
+    move v1, v11
+
+    :goto_5
+    invoke-virtual {p0}, Landroid/util/JsonReader;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_a
+
+    invoke-virtual {p0}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
+
+    move-result v10
+
+    const/16 v13, 0x6b
+
+    if-eq v10, v13, :cond_8
+
+    const/16 v13, 0x70
+
+    if-eq v10, v13, :cond_7
+
+    goto :goto_6
+
+    :cond_7
+    const-string v10, "p"
+
+    invoke-virtual {v2, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_9
+
+    move v2, v0
+
+    goto :goto_7
+
+    :cond_8
+    const-string v10, "k"
+
+    invoke-virtual {v2, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_9
+
+    move v2, v12
+
+    goto :goto_7
+
+    :cond_9
+    :goto_6
+    move v2, v11
+
+    :goto_7
+    packed-switch v2, :pswitch_data_2
+
+    invoke-virtual {p0}, Landroid/util/JsonReader;->skipValue()V
+
+    goto :goto_5
+
+    :pswitch_9
+    invoke-static {p0, p1, v1}, Lcom/airbnb/lottie/c/a/c$a;->a(Landroid/util/JsonReader;Lcom/airbnb/lottie/e;I)Lcom/airbnb/lottie/c/a/c;
+
+    move-result-object v6
+
+    goto :goto_5
+
+    :pswitch_a
+    invoke-virtual {p0}, Landroid/util/JsonReader;->nextInt()I
+
+    move-result v1
+
+    goto :goto_5
+
+    :cond_a
+    invoke-virtual {p0}, Landroid/util/JsonReader;->endObject()V
+
+    goto/16 :goto_0
+
+    :pswitch_b
+    invoke-virtual {p0}, Landroid/util/JsonReader;->nextString()Ljava/lang/String;
+
+    move-result-object v3
+
+    goto/16 :goto_0
+
+    :cond_b
+    new-instance p0, Lcom/airbnb/lottie/c/b/d;
+
+    const/4 v10, 0x0
+
+    move-object v2, p0
+
+    invoke-direct/range {v2 .. v10}, Lcom/airbnb/lottie/c/b/d;-><init>(Ljava/lang/String;ILandroid/graphics/Path$FillType;Lcom/airbnb/lottie/c/a/c;Lcom/airbnb/lottie/c/a/d;Lcom/airbnb/lottie/c/a/f;Lcom/airbnb/lottie/c/a/f;B)V
+
+    return-object p0
+
+    :pswitch_data_0
+    .packed-switch 0x72
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+
+    :pswitch_data_1
+    .packed-switch 0x0
+        :pswitch_b
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+    .end packed-switch
+
+    :pswitch_data_2
+    .packed-switch 0x0
+        :pswitch_a
+        :pswitch_9
+    .end packed-switch
+.end method

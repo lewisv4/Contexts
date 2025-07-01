@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.korok.view.WaterFallCardView android:id="@id/waterfall" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/common_background_activity">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/text_purchase_history" style="@style/CommonToolbarStyle" />
+    </com.ushowmedia.korok.view.WaterFallCardView>
+    <com.ushowmedia.korok.view.container.ContentContainer android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/waterfall">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@id/layout_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/rv_list" android:paddingBottom="@dimen/bottom_player_height" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </com.ushowmedia.korok.view.container.ContentContainer>
+    <com.ushowmedia.mipha.player.view.BottomPlayControllerView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

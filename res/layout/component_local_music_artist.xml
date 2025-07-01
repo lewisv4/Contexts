@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="70.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.mipha.hyrule.image.BaseDraweeView android:id="@id/iv_cover" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true" app:actualImageScaleType="fitCenter" app:placeholderImage="@drawable/bg_user_avatar" app:placeholderImageScaleType="fitCenter" app:roundAsCircle="true" />
+    <ImageView android:id="@id/iv_more" android:padding="6.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/icon_item_more_normal" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" android:layout_toStartOf="@id/iv_more" android:layout_toEndOf="@id/iv_cover">
+        <TextView android:textSize="@dimen/common_text_level_4" android:textColor="@color/common_text_color_primary" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+        <TextView android:textSize="@dimen/common_text_level_2" android:textColor="@color/common_text_color_tertiary" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:lines="1" />
+    </LinearLayout>
+</RelativeLayout>

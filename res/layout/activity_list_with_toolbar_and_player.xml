@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/common_background_activity" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/appbar" android:background="@color/common_background_activity" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CommonToolbarStyle">
+            <TextView android:textSize="@dimen/common_text_content_primary" android:textColor="@color/common_base_color" android:layout_gravity="end" android:id="@id/tv_submit_playlist" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit_playlist" android:textAllCaps="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+        </android.support.v7.widget.Toolbar>
+        <com.ushowmedia.korok.view.MiphaTabLayout android:id="@id/layout_tab" android:layout_width="fill_parent" android:layout_height="30.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" app:stl_defaultTabBackground="@color/common_transparent" app:stl_defaultTabTextColor="@color/local_music_tab_text_color" app:stl_defaultTabTextSize="@dimen/common_text_level_2" app:stl_distributeEvenly="true" app:stl_dividerThickness="0.0dip" app:stl_indicatorColor="@color/common_base_color" app:stl_indicatorInFront="true" app:stl_indicatorThickness="2.0dip" app:stl_indicatorWithoutPadding="true" app:stl_underlineThickness="0.0dip" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager android:id="@id/vp_cover_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar" />
+    <com.ushowmedia.mipha.player.view.BottomPlayControllerView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="?selectableItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.korok.view.AvatarView android:id="@id/iv_avatar" android:layout_width="54.0dip" android:layout_height="54.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/common_text_level_4" android:textColor="@color/common_text_color_primary" android:id="@id/tv_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_avatar" app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

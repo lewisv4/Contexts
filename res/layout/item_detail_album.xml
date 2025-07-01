@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushowmedia.mipha.hyrule.image.BaseDraweeView android:id="@id/bd_album" android:layout_width="274.0dip" android:layout_height="274.0dip" android:layout_centerInParent="true" app:actualImageScaleType="fitXY" app:placeholderImage="@drawable/image_default_cover" app:placeholderImageScaleType="fitXY" app:roundAsCircle="true" />
+    <ImageView android:layout_width="290.0dip" android:layout_height="290.0dip" android:src="@drawable/image_album_mask" android:scaleType="fitXY" android:layout_centerInParent="true" />
+</RelativeLayout>
