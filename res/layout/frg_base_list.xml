@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.ushowmedia.korok.view.container.ContentContainer android:id="@id/vg_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v7.widget.RecyclerView android:id="@id/rv_container" android:paddingTop="10.0dip" android:paddingBottom="@dimen/bottom_player_height" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</com.ushowmedia.korok.view.container.ContentContainer>

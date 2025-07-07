@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.common.liblocker.ui.SliderLayout android:id="@id/lyt_root" android:layout_width="fill_parent" android:layout_height="fill_parent" shimmer:sl_direction="left2right"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:shimmer="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</com.common.liblocker.ui.SliderLayout>

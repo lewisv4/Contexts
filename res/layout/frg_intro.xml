@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="23.0sp" android:textStyle="bold" android:textColor="@color/common_text_color_white" android:id="@id/tv_content" android:layout_width="275.0dip" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.3" android:textAlignment="center" />
-    <com.ushowmedia.korok.view.FixedHeightAspectRatioRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_centerHorizontal="true" app:fixed_aspectRadio="0.923">
-        <com.airbnb.lottie.LottieAnimationView android:id="@id/v_anim" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </com.ushowmedia.korok.view.FixedHeightAspectRatioRelativeLayout>
-</RelativeLayout>

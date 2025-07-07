@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="@color/common_background_color_blue" android:layout_width="fill_parent" android:layout_height="44.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/common_text_level_2" android:textColor="@color/common_color_black_primary" android:ellipsize="end" android:id="@id/text_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="18.0dip" android:layout_marginEnd="4.0dip" />
-    <TextView android:textSize="@dimen/common_text_level_4" android:textColor="@color/common_text_color_blue" android:id="@id/info_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="11.0dip" />
-    <ImageView android:id="@id/cancel_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/icon_topnav_cancel" />
-</LinearLayout>

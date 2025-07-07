@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@drawable/bg_lrc_guide" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/lottie_view_click" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="4.0dip" />
-    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/lottie_view_scroll" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="4.0dip" />
-    <TextView android:textSize="@dimen/common_text_level_2" android:textColor="@color/common_text_color_white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="2.0dip" android:layout_marginEnd="14.0dip" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.ushowmedia.korok.view.AvatarView android:id="@id/iv_avatar" style="@style/AvatarView.Little" />
-    <TextView android:textSize="@dimen/common_text_subtitle_playlist" android:textColor="@color/common_text_color_white" android:ellipsize="end" android:id="@id/tv_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="4.0dip" />
-    <ImageView android:id="@id/iv_vip" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="4.0dip" app:srcCompat="@drawable/icon_vip" />
-</LinearLayout>

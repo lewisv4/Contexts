@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="130.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_width="116.0dip" android:layout_height="116.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/image_check_in_coins" android:scaleType="fitXY" android:layout_marginStart="4.0dip" />
-    <TextView android:textSize="56.0sp" android:textColor="@color/common_text_color_primary" android:id="@id/tv_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textSize="@dimen/common_text_level_5" android:textColor="@color/common_text_color_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:text="@string/text_in_total" android:layout_below="@id/tv_total" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
-    <TextView android:textSize="@dimen/common_text_level_4" android:textColor="@color/common_color_blue" android:id="@id/tv_get_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/text_get_more" android:layout_alignParentBottom="true" android:textAllCaps="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
-</RelativeLayout>

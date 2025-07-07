@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/bg_feature_guide" android:layout_width="312.0dip" android:layout_height="wrap_content" android:layout_margin="20.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/common_text_level_4" android:textColor="@color/common_base_color" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/guide_feature_fav_song" />
-    <ImageView android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="111.0dip" android:src="@drawable/pic_fav_guide" android:scaleType="fitXY" />
-</LinearLayout>

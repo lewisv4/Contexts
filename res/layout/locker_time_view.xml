@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="84.0dip" android:textColor="@color/lock_color_white_a100" android:layout_gravity="center_horizontal" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-thin" />
-    <TextView android:textSize="@dimen/common_text_level_4" android:textColor="@color/lock_color_white_a100" android:layout_gravity="center_horizontal" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</merge>

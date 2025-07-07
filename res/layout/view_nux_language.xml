@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.ushowmedia.korok.view.ShapedImageView android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitEnd" app:round_radius="6.0dip" app:shape_mode="round_rect" app:stroke_color="@color/common_color_gray_a50" app:stroke_width="0.5dip" />
-    <com.ushowmedia.mipha.hyrule.image.BaseDraweeView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="fitEnd" app:round_radius="6.0dip" app:roundedCornerRadius="6.0dip" app:roundingBorderColor="@color/common_transparent" app:roundingBorderWidth="1.0dip" />
-    <TextView android:textSize="@dimen/common_text_level_6" android:textStyle="bold" android:textColor="@color/common_text_color_white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" />
-    <ImageView android:id="@id/iv_checked" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/tv_title" app:srcCompat="@drawable/icon_item_checked_white" />
-</RelativeLayout>

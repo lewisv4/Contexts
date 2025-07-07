@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/solo_music_decompiled.iml" filepath="$PROJECT_DIR$/solo_music_decompiled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allegro.iml" filepath="$PROJECT_DIR$/allegro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/allegro_android.iml" filepath="$PROJECT_DIR$/android/allegro_android.iml" />
     </modules>
   </component>
 </project>
